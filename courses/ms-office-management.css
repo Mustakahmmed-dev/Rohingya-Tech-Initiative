@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cover-text{
+    padding: 40px;
+    text-align: center;
+    line-height: 1.5;
+}
+.course-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 40px 50px;
+}
+.ms-office-management-course-details{
+    line-height: 2;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 8px 8px 12px gray;
+    padding: 15px 20px;
+}
+.ms-office-management-course-details h3{
+    text-align: center;
+}
+.click-here{
+    color: white;
+    font-weight: bolder;
+}
+.click-here:hover{
+    color: coral;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.course-mentor{
+    max-width: 350px;
+}
+.course-mentor-pic{
+    width: 100%;
+}
+.course-mentor-desc{
+    text-align: center;
+}
+.course-mentor-desc h4{
+    color: #cebec9;
+}
+
+@media (max-width: 600px){
+    .course-container{
+        display: block;
+    }
+    .course-container > div{
+        margin-bottom: 40px;
+    }
+}

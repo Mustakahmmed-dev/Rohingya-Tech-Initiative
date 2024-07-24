@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/* Navigation styles*/
+.nav{
+    justify-content: space-between;
+    display: flex;
+    background-color: black;
+    padding: 20px;
+
+}
+.logo{
+    font-size: 30px;
+    font-family: fantasy;
+    color: white;
+    margin-left: 30px;
+}
+.navbar{
+    display: flex;
+}
+.nav-item{
+    padding: 10px 15px;
+}
+.nav-item:hover{
+    background-color: blue;
+}
+.nav-link{
+    color: white;
+    font-size: 16px;
+}
+.nav-link:hover{
+    font-size: 18px;
+}
+
+/* Responsive Nav Design*/
+@media (max-width: 576px){
+    .nav{
+        display: block;
+        text-align: center;
+    }
+    .navbar{
+        display: block;
+    }
+    .nav-item{
+        border-radius: 10px;
+    }
+    .nav-link:hover{
+        font-size: 20px;
+        font-weight: bolder;
+        color: yellow;
+    }
+    .item-menu{
+        left: 30%;
+    }
+
+}
+
+/* Dropdown menus */
+.item-holder{
+    position: relative;
+}
+.item-menu{
+    position: absolute;
+    min-width: 150px;
+    background-color: white;
+    z-index: 2;
+    border-radius: 5px;
+    padding: 8px;
+    display: none;
+}
+.item-item{
+    padding: 5px 0px;
+}
+.item-link:hover{
+    background-color: green;
+    color: white;
+}
+.item-link{
+    color: black;
+    padding: 8px 16px;
+    font-size: 12px;
+}
+.item-holder:hover .item-menu{
+    display: block;
+}
+.badge{
+    background: blue;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 11px;
+}
+/*Navbar ends here */
+
+.cover{
+    background-size: cover;
+    background: #555;
+    color: white;
+    height: 88vh;
+}
+.cover-content{
+    padding: 40px 60px;
+    text-align: center;
+}
+.cover-content-para{
+    padding: 20px;
+    line-height: 1.5;
+}
+
+/* Privacy, Mission, Goal Contents */
+.pmg-container{
+    padding: 40px 30px;
+}
+.pmg-container h2{
+    padding: 20px 0px;
+    text-align: center;
+}
+.pmg-container p{
+    line-height: 1.5;
+    font-size: 16px;
+}
+.pmg-content{
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 8px 10px 12px ;
+}
+
+/*Footer */
+.footer-container{
+    background-color: #555;
+    color: white;
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer-container > div{
+    margin-right: 10px;
+}
+ul li{
+    list-style: none;
+}
+.footer-item input{
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+
+}
+.footer-item button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+@media (max-width: 576px){
+    .footer-container{
+        display: block;
+    }
+    .footer-container > div{
+        margin-bottom: 40px;
+    }
+}
