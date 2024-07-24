@@ -99,9 +99,9 @@
     background: #555;
     color: white;
     height: 88vh;
+    padding: 40px 60px;
 }
 .cover-content{
-    padding: 40px 60px;
     text-align: center;
 }
 .cover-content-para{
