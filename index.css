@@ -54,6 +54,9 @@
     .item-menu{
         left: 30%;
     }
+    .cover{
+        padding: 10px;
+    }
 
 }
 
@@ -98,13 +101,12 @@
     background-size: cover;
     background: #555;
     color: white;
-    padding: 40px 60px;
+    padding: 40px 20px;
 }
 .cover-content{
     text-align: center;
 }
 .cover-content-para{
-    padding: 20px;
     line-height: 1.5;
 }
 
