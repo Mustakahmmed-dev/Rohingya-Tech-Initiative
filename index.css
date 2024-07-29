@@ -157,6 +157,14 @@ ul li{
     font-size: 18px;
     cursor: pointer;
 }
+.social-media-icons a{
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+}
+.social-media-icons{
+    margin-top: 10px;
+}
 
 @media (max-width: 576px){
     .footer-container{
